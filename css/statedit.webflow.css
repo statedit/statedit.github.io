@@ -1,0 +1,66 @@
+.body {
+  height: 900px;
+  min-height: 600px;
+  margin-top: 0px;
+  background-color: #c22937;
+  color: white;
+}
+
+.logosection {
+  position: relative;
+  top: 100px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.mainsection {
+  padding-bottom: 0px;
+}
+
+.textsection {
+  margin-top: 30px;
+}
+
+.heading {
+  font-family: 'Aleo Regular', sans-serif;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logosection {
+    top: 80px;
+  }
+  .heading {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 479px) {
+  .logosection {
+    top: 70px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .logo {
+    width: 55%;
+  }
+}
+
+@font-face {
+  font-family: 'Aleo Regular';
+  src: url('../fonts/aleo-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo Bold';
+  src: url('../fonts/aleo-bold-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
